@@ -17,6 +17,8 @@ namespace TranDinhTrong_2011061190.Models
         public string Place { get; set ; }  
         public DateTime DateTime { get; set; }
         public Category Category { get; set; }
+        [Required]
+        public byte CategoryId { get; set; } 
     }
 
 }
