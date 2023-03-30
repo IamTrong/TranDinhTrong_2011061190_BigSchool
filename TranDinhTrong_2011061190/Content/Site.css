@@ -31,7 +31,7 @@ textarea {
 .form-dropdown{
    position: relative;
 }
-.form-dropdown > a {
+.form-dropdown  a {
     color: #fff;
     text-decoration: none;
 }
@@ -95,3 +95,5 @@ textarea {
     transform: translateY(-50%);
     left: 70px;
 }
+
+

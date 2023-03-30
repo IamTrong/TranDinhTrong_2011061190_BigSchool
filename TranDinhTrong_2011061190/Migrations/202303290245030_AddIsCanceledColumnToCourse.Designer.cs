@@ -7,13 +7,13 @@ namespace TranDinhTrong_2011061190.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class AddNameColumnToApplicationUser : IMigrationMetadata
+    public sealed partial class AddIsCanceledColumnToCourse : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddNameColumnToApplicationUser));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddIsCanceledColumnToCourse));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303220356580_AddNameColumnToApplicationUser"; }
+            get { return "202303290245030_AddIsCanceledColumnToCourse"; }
         }
         
         string IMigrationMetadata.Source

@@ -7,13 +7,13 @@ namespace TranDinhTrong_2011061190.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class AddAttendance : IMigrationMetadata
+    public sealed partial class InitialModel : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddAttendance));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303220353335_AddAttendance"; }
+            get { return "202303240621233_InitialModel"; }
         }
         
         string IMigrationMetadata.Source
